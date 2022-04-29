@@ -1,12 +1,11 @@
-
-import RoutesWrapper from 'Components/Routers/Routes';
+import RoutesWrapper from 'Components/Routers/routes';
+import 'App.scss';
 function App() {
-
-  return (
-    <div className="App">
-      <RoutesWrapper/>
-    </div>
-  )
+    return (
+        <div className="root-container">
+            <RoutesWrapper />
+        </div>
+    );
 }
 
-export default App
+export default App;

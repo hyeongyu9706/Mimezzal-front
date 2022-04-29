@@ -1,13 +1,13 @@
-import  {RoutesString} from 'Components/Modules/Constant';
-import CompExam from "Components/Pages/Main";
+import { RoutesString } from 'Components/Modules/Constant';
+import CompExam from 'Components/Pages/Main';
 interface pagesType {
-    path: string,
-    element:JSX.Element
+    path: string;
+    element: JSX.Element;
 }
-const pages:pagesType[] = [
+const pages: pagesType[] = [
     {
         path: RoutesString.Main,
-        element: <CompExam/>,
+        element: <CompExam />,
     },
 ];
 export default pages;

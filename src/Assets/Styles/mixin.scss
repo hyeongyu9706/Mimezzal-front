@@ -1,0 +1,26 @@
+@mixin txtEllip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+ @mixin align-mid {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ @mixin flexSet($align: false, $justify: false, $flex: false) {
+    display: flex;
+    @if ($align) {
+      align-items: $align;
+    }
+    @if ($justify) {
+      justify-content: $justify;
+    }
+    @if ($flex) {
+      flex-direction: $flex;
+    }
+  }
+  

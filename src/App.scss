@@ -1,0 +1,9 @@
+.root-container {
+    display: flex;
+    justify-content: center;
+    background-color: #313035;
+    .contents-container {
+        width: 100%;
+        // max-width: 1000px;
+    }
+}
